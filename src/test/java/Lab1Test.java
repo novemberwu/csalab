@@ -1,5 +1,5 @@
+import lab1.DummySolution;
 import lab1.Homework;
-import lab1.Rachel;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,8 +24,7 @@ public class Lab1Test {
     @BeforeEach
     public void setUp() {
         System.setOut(new PrintStream(outputStreamCaptor));
-
-        homeworks.add( new Rachel());
+        homeworks.add( new DummySolution());
     }
 
 
