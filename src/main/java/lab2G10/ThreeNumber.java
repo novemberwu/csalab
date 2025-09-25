@@ -3,7 +3,7 @@ package lab2G10;
 public class ThreeNumber {
 
     public static boolean threeNumber(int a, int b, int c){
-        return false;
+       return (a+b)> c  && (a+c)>b && (b+c)> a;
     }
     public static void main(String[] args){
         // validations on user input
@@ -18,6 +18,7 @@ public class ThreeNumber {
         // step 2: check if the three number can form triangle
         // i.e. a + b > c, a + c > b, and b + c > a
         System.out.println(threeNumber(a, b, c));
+
 
     }
 }

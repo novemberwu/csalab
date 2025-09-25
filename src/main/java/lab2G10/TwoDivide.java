@@ -4,7 +4,7 @@ public class TwoDivide {
 
     public static boolean twoDivide(int a, int b){
 
-       return false;
+       return a % b == 0 || b % a == 0;
 
     }
 
